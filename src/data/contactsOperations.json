@@ -1,0 +1,8 @@
+{
+  "title": "Operations on Contacts Collection",
+  "operationNames": [
+    { "icon": "plus", "name": "Create a Contact" },
+    { "icon": "edit", "name": "Update a Contact" },
+    { "icon": "cross", "name": "Delete a contact" }
+  ]
+}
