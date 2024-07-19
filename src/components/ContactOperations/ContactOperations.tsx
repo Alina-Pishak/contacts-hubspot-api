@@ -1,7 +1,6 @@
 import React from "react";
 
 import data from "../../data/contactsOperations.json";
-import sprite from "../../icons/symbol-defs.svg";
 
 import {
   ContactOperationsItemIcon,
@@ -22,11 +21,11 @@ const ContactOperations = () => {
         {data.operationNames.map(({ icon, name }, index) => (
           <ContactOperationsItem key={index}>
             <ContactOperationsItemIcon width="24px" height="24px">
-              <use href={`${sprite}#icon-${icon}`} />
+              <use href={`/icons/symbol-defs.svg#icon-${icon}`} />
             </ContactOperationsItemIcon>
             <ContactOperationsItemText>{name}</ContactOperationsItemText>
             <ContactOperationsItemIconArrow width="24px" height="24px">
-              <use href={`${sprite}#icon-arrow-right`} />
+              <use href={`/icons/symbol-defs.svg#icon-arrow-right`} />
             </ContactOperationsItemIconArrow>
           </ContactOperationsItem>
         ))}
