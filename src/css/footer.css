@@ -1,0 +1,28 @@
+.footer-container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.footer-text {
+  color: #4a4560;
+  font-weight: 700;
+  font-size: 16px;
+  transition: color var(--transition-dur-and-func);
+}
+
+.footer-text:hover,
+.footer-text:focus {
+  color: var(--color-hover);
+}
+
+@media screen and (min-width: 1440px) {
+  .footer-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .footer-text {
+    font-size: 20px;
+  }
+}
