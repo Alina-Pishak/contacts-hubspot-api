@@ -1,4 +1,38 @@
 {
   "title": "",
-  "contactFieldNames": []
+  "contactFieldsTable": {
+    "titles": ["Field Name", "API Key", "Type", "Description"],
+    "fields": [
+      {
+        "fieldName": "First Name",
+        "apiKey": "first_name",
+        "type": "string",
+        "description": "First name of the person"
+      },
+      {
+        "fieldName": "Last Name",
+        "apiKey": "last_name",
+        "type": "string",
+        "description": "Last name of the person"
+      },
+      {
+        "fieldName": "Address",
+        "apiKey": "address",
+        "type": "object",
+        "description": "Address associated with the person"
+      },
+      {
+        "fieldName": "Full",
+        "apiKey": "address.full",
+        "type": "string",
+        "description": "Full address associated with the person"
+      },
+      {
+        "fieldName": "Street",
+        "apiKey": "address.street",
+        "type": "string",
+        "description": "Street address"
+      }
+    ]
+  }
 }

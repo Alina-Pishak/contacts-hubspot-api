@@ -1,0 +1,44 @@
+.header-container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.header-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-list {
+  display: flex;
+  gap: 20px;
+}
+
+.header-link {
+  font-size: 12px;
+  color: var(--color-primary);
+  transition: color var(--transition-dur-and-func),
+    background-color var(--transition-dur-and-func);
+}
+
+.header-link:hover,
+.header-link:focus {
+  color: var(--color-hover);
+}
+
+@media screen and (min-width: 1440px) {
+  .header-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .header-list {
+    gap: 40px;
+  }
+
+  .header-link {
+    font-size: 16px;
+    transition: color var(--transition-dur-and-func),
+      background-color var(--transition-dur-and-func);
+  }
+}

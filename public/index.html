@@ -1,26 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta name="description" content="Contacts Hubspot API" />
+    <title>Contacts Hubspot API</title>
+    <link rel="icon" href="%PUBLIC_URL%/contacts.png" />
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@400&f[]=clash-grotesk@500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../src/index.css" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Contacts Hubspot API" /> Contacts Hubspot API</title>
-  <link rel="stylesheet" href="../src/index.css">
-  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400&f[]=clash-grotesk@500&display=swap" rel="stylesheet">
-</head>
-
-<body>
-  <!-- <header></header> -->
-  <main>
-    <section>
-      <h1>How to work with Contacts in Hubspot API</h1>
-      <p>Contacts represent records about people in Hubspot API. They are typically associated with Companies and
-        Activities such as Emails, Meetings, Notes, etc.</p>
-    </section>
-    <div id="root"></div>
-  </main>
-  <!-- <footer></footer> -->
-</body>
-
+  <body>
+    <header class="container">
+      <div class="header-container">
+        <nav class="header-navigation">
+          <a class="logo" href="./index.html">Hubspot API</a>
+          <ul class="header-list">
+            <li class="header-item">
+              <a class="header-link" href="#about">How to use</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#fields">Fields</a>
+            </li>
+            <li class="header-item">
+              <a class="header-link" href="#operations">Operations</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="about" class="container">
+        <div class="about-container">
+          <h1 class="title about-title">
+            How to work with Contacts in Hubspot API
+          </h1>
+          <p class="about-text">
+            Contacts represent records about people in Hubspot API. They are
+            typically associated with Companies and Activities such as Emails,
+            Meetings, Notes, etc.
+          </p>
+        </div>
+      </section>
+      <div id="root"></div>
+    </main>
+    <!-- <footer></footer> -->
+  </body>
 </html>

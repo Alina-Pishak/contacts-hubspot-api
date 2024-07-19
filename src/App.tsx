@@ -1,12 +1,14 @@
 import React from "react";
 
-import ContactOperations from "./components/ContactOperations/ContactOperations.tsx";
+import ContactFieldsTable from "./components/ContactFields";
+import ContactOperations from "./components/ContactOperations";
 
 import "./App.css";
 
 function App() {
   return (
     <>
+      <ContactFieldsTable />
       <ContactOperations />
     </>
   );
