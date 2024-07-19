@@ -19,11 +19,6 @@ export const FieldsTitle = styled.h2`
   }
 `;
 
-// export const TableWrapper = styled.table`
-//   overflow-x: auto;
-//   -webkit-overflow-scrolling: touch;
-// `;
-
 export const Table = styled.table`
   padding: 24px;
   border-radius: 14px;

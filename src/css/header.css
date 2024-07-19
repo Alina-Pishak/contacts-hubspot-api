@@ -1,6 +1,7 @@
 .header-container {
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #1a1f39;
 }
 
 .header-navigation {
