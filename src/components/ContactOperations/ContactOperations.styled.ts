@@ -2,14 +2,16 @@ import styled from "styled-components";
 
 export const ContactOperationsContainer = styled.section`
   padding-top: 15px;
-  @media (min-width: 768px) {
+  padding-bottom: 20px;
+  @media (min-width: 1440px) {
     padding-top: 48px;
+    padding-bottom: 40px;
   }
 `;
 
 export const ContactOperationsTitle = styled.h2`
   margin-bottom: 24px;
-  @media (min-width: 768px) {
+  @media (min-width: 1440px) {
     margin-bottom: 32px;
   }
 `;
@@ -41,7 +43,7 @@ export const ContactOperationsItem = styled.li`
     color: var(--color-hover);
     stroke: var(--color-hover);
   }
-  @media (min-width: 768px) {
+  @media (min-width: 1440px) {
     padding: 20px;
     gap: 12px;
     margin-bottom: 12px;
@@ -61,7 +63,7 @@ export const ContactOperationsItemText = styled.p`
   font-size: 16px;
   line-height: 140%;
   color: inherit;
-  @media (min-width: 768px) {
+  @media (min-width: 1440px) {
     font-size: 20px;
   }
 `;

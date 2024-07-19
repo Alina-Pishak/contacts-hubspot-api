@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FieldsContainer = styled.section`
   padding-bottom: 15px;
   padding-top: 10px;
-  @media (min-width: 768px) {
+  @media (min-width: 1440px) {
     padding-bottom: 48px;
     padding-top: 20px;
   }
@@ -13,7 +13,7 @@ export const FieldsTitle = styled.h2`
   font-weight: 700;
   font-size: 16px;
   margin-bottom: 20px;
-  @media (min-width: 768px) {
+  @media (min-width: 1440px) {
     font-size: 18px;
     margin-bottom: 40px;
   }
@@ -52,7 +52,7 @@ export const Th = styled.th`
   text-align: left;
   padding-bottom: 12px;
   width: 290px;
-  @media (min-width: 768px) {
+  @media (min-width: 1440px) {
     font-size: 16px;
   }
 `;
@@ -71,7 +71,7 @@ export const Td = styled.td`
   font-size: 12px;
   border-bottom: 1px solid #1a1f39;
   padding: 12px 0;
-  @media (min-width: 768px) {
+  @media (min-width: 1440px) {
     font-size: 16px;
   }
 `;
